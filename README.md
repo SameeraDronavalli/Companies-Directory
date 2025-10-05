@@ -1,16 +1,36 @@
-# React + Vite
+# React Companies Filter Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project displays a list of companies with search, location, and industry filters. It also handles **loading**, **error**, and **empty states** for a smooth user experience.
 
-Currently, two official plugins are available:
+## Project Purpose
+The goal of this project is to create a **user-friendly interface** for exploring companies with multiple filtering options. It’s a practical project for learning:
+- React components and props
+- State management with `useState` and `useEffect`
+- Conditional rendering for loading/error/empty states
+- Responsive layouts using Tailwind CSS
+  
+## Features
+- **Search by company name**  
+- **Filter by location**  
+- **Filter by industry**  
+- Handles **loading**, **error**, and **no data available** states  
+- Responsive grid layout for desktop, tablet, and mobile
+ 
+## Tech Stack
+- **React.js** – Frontend framework  
+- **Tailwind CSS** – Styling and responsive layout  
+- **Vite** – Development server and bundler  
+- **JavaScript** – Functionality and logic
+  
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/SameeraDronavalli/Companies-Directory.git
+cd react-companies-filter
 
-## React Compiler
+2️⃣ Install dependencies
+npm install
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3️⃣ Run the development server
+npm run dev
