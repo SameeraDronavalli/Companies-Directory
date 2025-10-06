@@ -1,6 +1,7 @@
 export default function Filter({ search, setSearch, location, setLocation, industry, setIndustry }) {
     return (
         <div className="flex gap-4 mb-4">
+            
             <input
                 type="text"
                 placeholder="Search for Company Name"
@@ -8,7 +9,7 @@ export default function Filter({ search, setSearch, location, setLocation, indus
                 onChange={(e) => setSearch(e.target.value)}
                 className="border p-2 rounded w-1/2"
             />
-                        {/* Location dropdown */}
+            {/* Location dropdown */}
 
             <select
                 value={location}
@@ -25,7 +26,7 @@ export default function Filter({ search, setSearch, location, setLocation, indus
                 <option value="Ireland">Ireland</option>
 
             </select>
- {/* Industry dropdown */}
+            {/* Industry dropdown */}
             <select
                 value={industry}
                 onChange={(e) => setIndustry(e.target.value)}
